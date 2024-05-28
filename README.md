@@ -13,4 +13,4 @@
 * What's old is new agai. This is the [modern mixtape](https://en.wikipedia.org/wiki/Mixtape) or a compilation of curated songs. 
 
 ## Citations
-* [VocaDB](https://vocadb.net/S/260566/lyrics?lyricsId=82684)
+* [VocaDB](https://vocadb.net/S/516664)

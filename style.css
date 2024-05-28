@@ -1,7 +1,7 @@
 /* CSS Variables */
 :root {
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main: rgb(146, 30, 30);
     /* audio controls background */
     --plyr-audio-controls-background: black;
     /* audio controls color */
@@ -18,10 +18,17 @@
     --plyr-tooltip-background: white;
     --plyr-tooltip-color: black; 
     --plyr-control-icon-size: 16px;
+
+    /* font var */
+    --font: "Roboto Mono", monospace;
 }
 
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
 body {
-    background: gray;
+    background: rgb(54, 54, 54);
 }
 
 /* Layout */
@@ -31,12 +38,30 @@ main {
     margin-inline: auto;
 
     background: lightgray;
+
+    font-family: var(--font);
 }
+
+span {
+    color: var(--plyr-color-main)
+}
+
+
+
 
 main img {
     /* Fit image to container */
     max-width: 100%;
     display: block;
+}
+
+/* link stuff */
+a {
+    color: rgb(146, 30, 30);
+}
+
+a :hover {
+    color:rgb(216, 40, 40)
 }
 
 /* Primary Content */

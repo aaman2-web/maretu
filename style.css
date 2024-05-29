@@ -12,15 +12,16 @@
     --plyr-font-size-time: 16px;
 
     /* Other optional customiziations */
-    --plyr-audio-control-color-hover:  black;
-    --plyr-audio-progress-buffered-background:  black;
+    --plyr-audio-control-color-hover: black;
+    --plyr-audio-progress-buffered-background: black;
     --plyr-audio-range-track-background: white;
     --plyr-tooltip-background: white;
-    --plyr-tooltip-color: black; 
+    --plyr-tooltip-color: black;
     --plyr-control-icon-size: 16px;
 
     /* font var */
     --font: "Roboto Mono", monospace;
+    --color1: rgb(246, 66, 66);
 }
 
 /* font import */
@@ -40,6 +41,7 @@ main {
     background: lightgray;
 
     font-family: var(--font);
+    padding: 1em;
 }
 
 span {
@@ -60,8 +62,8 @@ a {
     color: rgb(146, 30, 30);
 }
 
-a :hover {
-    color:rgb(216, 40, 40)
+a:hover {
+    color: var(--color1);
 }
 
 /* Primary Content */
@@ -80,6 +82,7 @@ article section {
 /* Footer */
 footer {
     text-align: center;
+    margin-top: 2em;
 }
 
 /* Media Queries */
